@@ -29,9 +29,14 @@ public class Deck {
 	 * @param suits is an array containing all of the card suits.
 	 * @param values is an array containing all of the card point values.
 	 */
+        @SuppressWarnings("empty-statement")
 	public Deck(String[] ranks, String[] suits, int[] values) {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
                 cards = new ArrayList<Card>();
+                for (i=0;i<52;i++) {
+                    
+                    size++;
+                }
                 
                 
 	}
